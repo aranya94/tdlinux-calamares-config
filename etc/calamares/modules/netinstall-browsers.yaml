@@ -1,0 +1,12 @@
+- name: "Browsers"
+  description: "Selection of Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - firefox
+    - chromium
+    - vivaldi
+
+
