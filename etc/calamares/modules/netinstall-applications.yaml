@@ -6,7 +6,6 @@
   expanded: true
   packages:
     - meld
-    - gitahead
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
