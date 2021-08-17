@@ -1,0 +1,30 @@
+- name: "Git"
+  description: "Git applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - meld
+    - gitahead
+- name: "Virtualbox for Linux kernel"
+  description: "Installs virtualbox for linux kernel"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-headers
+- name: "Virtualbox for Linux-lts kernel"
+  description: "Installs virtualbox for linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-lts-headers
+    - linux-lts

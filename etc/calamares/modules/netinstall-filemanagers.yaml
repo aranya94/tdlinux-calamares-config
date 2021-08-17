@@ -1,0 +1,10 @@
+- name: "Filemanagers"
+  description: "Filemanagers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - dolphin
+    - thunar
+    - ranger

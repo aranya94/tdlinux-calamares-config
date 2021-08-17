@@ -1,0 +1,9 @@
+- name: "Toolkit"
+  description: "Tools you would need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - kubectl
+    - docker

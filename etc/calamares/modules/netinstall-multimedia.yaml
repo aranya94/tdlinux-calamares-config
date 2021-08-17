@@ -1,0 +1,10 @@
+- name: "Multimedia"
+  description: "Audio and video software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - audacity
+    - kdenlive
+    - obs-studio
