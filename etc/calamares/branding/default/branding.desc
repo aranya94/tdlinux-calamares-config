@@ -125,7 +125,7 @@ strings:
     shortProductName:    Generic
     version:             2021.1
     shortVersion:        2021.1
-    versionedName:       TDLinux Initiate
+    versionedName:       TDLinux Initiate Made by Aranya Das
     shortVersionedName:  TDLInitiate
     bootloaderEntryName: TDLinux
     productUrl:          https://calamares.io/
