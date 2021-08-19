@@ -7,3 +7,4 @@
   packages:
     - kubectl
     - docker
+    - intellij-idea-community-edition
