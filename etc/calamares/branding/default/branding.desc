@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 800px,520px
+windowSize: 800px,700px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -122,17 +122,17 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         TDLinux
-    shortProductName:    Generic
+    shortProductName:    TDLinux
     version:             2021.1
     shortVersion:        2021.1
     versionedName:       TDLinux Initiate Made by Aranya Das
     shortVersionedName:  TDLInitiateMadeBYAranyaDas
     bootloaderEntryName: TDLinux
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
-    releaseNotesUrl:     https://calamares.io/news/
-    donateUrl:           https://kde.org/community/donations/index.php
+#   productUrl:          https://calamares.io/
+#   supportUrl:          https://github.com/calamares/calamares/issues
+#   knownIssuesUrl:      https://github.com/calamares/#calamares/
+#   releaseNotesUrl:     https://calamares.io/news/
+#   donateUrl:           https://kde.org/community/donations/#index.php
 
 # These images are loaded from the branding module directory.
 #
