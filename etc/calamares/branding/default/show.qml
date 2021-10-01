@@ -35,7 +35,7 @@ Presentation
 
     Image {
         id: background1
-        source: "1-welcometo.svg"
+        source: "1-welcometo.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-tdl.svg"
+        source: "2-tux.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -85,7 +85,7 @@ Presentation
 
     Image {
         id: background3
-        source: "3-carliis.svg"
+        source: "3-arch.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -96,12 +96,13 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "This was made"
+        text: "This was made to help new Linux Users get Used To Linux"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
     	}
     }
+
 
     Slide {
 
@@ -110,57 +111,7 @@ Presentation
 
     Image {
         id: background4
-        source: "4-customised.svg"
-        width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
-        anchors.fill: parent
-    	}
-
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "To help new Linux Users"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
-    }
-
-    Slide {
-
-    anchors.fill: parent
-    anchors.verticalCenterOffset: 0
-
-    Image {
-        id: background5
-        source: "5-archlinux.svg"
-        width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
-        anchors.fill: parent
-    	}
-
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "With Getting used to Linux"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
-    }
-
-    Slide {
-
-    anchors.fill: parent
-    anchors.verticalCenterOffset: 0
-
-    Image {
-        id: background6
-        source: "6-iso.svg"
+        source: "4-softwares.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -185,8 +136,8 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
-        id: background7
-        source: "7-enjoy.svg"
+        id: background5
+        source: "5-enjoy.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
