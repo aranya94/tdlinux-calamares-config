@@ -98,18 +98,20 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 
 /* START OF QSS */
 
-#mainApp { }
+#mainApp {
+    background-color: #a4f9ef7F;
+}
 
 #sidebarApp {
-  background-color: #262626;
+  background-color: #a4f9ef7F;
 }
 
 #logoApp {
-  background-color: #262626;
+  background-color: #a4f9ef7F;
 }
 
 #sidebarMenuApp{
-  background-color: #262626;
+  background-color: #a4f9ef7F;
   font: 20px;
 }
 
