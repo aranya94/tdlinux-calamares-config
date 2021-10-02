@@ -99,19 +99,19 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 /* START OF QSS */
 
 #mainApp {
-    background-color: rgba(105, 105, 105, 0.498);
+    background-color: rgba(105, 105, 105, 60%);
 }
 
 #sidebarApp {
-  background-color: rgba(1105, 105, 105, 0.498);
+  background-color: rgba(1105, 105, 105, 60%);
 }
 
 #logoApp {
-  background-color: rgba(105, 105, 105, 0.498);
+  background-color: rgba(105, 105, 105, 60%);
 }
 
 #sidebarMenuApp{
-  background-color: rgba(105, 105, 105, 0.498);
+  background-color: rgba(105, 105, 105, 60%);
   font: 20px;
 }
 
