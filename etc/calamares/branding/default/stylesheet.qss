@@ -101,15 +101,15 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #mainApp { }
 
 #sidebarApp {
-  background-color: #444;
+  background-color: #262626;
 }
 
 #logoApp {
-  background-color: #444;
+  background-color: #262626;
 }
 
 #sidebarMenuApp{
-  background-color: #444;
+  background-color: #262626;
   font: 20px;
 }
 

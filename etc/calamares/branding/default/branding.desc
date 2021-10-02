@@ -78,7 +78,7 @@ windowPlacement: center
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: qml,right
+sidebar: qml,left
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -125,8 +125,8 @@ strings:
     shortProductName:    TDLinux
     version:             2021.1
     shortVersion:        2021.1
-    versionedName:       TDLinux Initiate Made by Aranya Das
-    shortVersionedName:  TDLInitiateMadeBYAranyaDas
+    versionedName:       TDLinux
+    shortVersionedName:  TDLinux
     bootloaderEntryName: TDLinux
 #   productUrl:          https://calamares.io/
 #   supportUrl:          https://github.com/calamares/calamares/issues
@@ -166,7 +166,7 @@ images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "languages.png"
+    productWelcome:      "splash.png"
 
 # Colors for text and background components.
 #
@@ -180,7 +180,7 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#444"
+   sidebarBackground:    "#262626"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#444"
    sidebarTextHighlight: "#FFFFFF"
