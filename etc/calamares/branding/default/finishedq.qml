@@ -45,7 +45,7 @@ Page {
         }
 
         Image {
-            source: "seedling.svg"
+            source: "splash.png"
             anchors.top: header.bottom
             anchors.topMargin: 20
             anchors.horizontalCenter: parent.horizontalCenter
